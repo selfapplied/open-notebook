@@ -237,8 +237,8 @@ Now let's examine how these seven principles manifest specifically in Open Noteb
 
 The Ask system demonstrates emergence from local rules beautifully:
 
-```python
-# Each node follows simple rules:
+```text
+Each node follows simple rules:
 1. Strategy node: "Given a question, decompose it into search terms"
 2. Search nodes: "For each term, retrieve relevant content"
 3. Answer nodes: "For each search, extract relevant information"
@@ -445,8 +445,8 @@ The system literally tracks "energy" (tokens) and budgets accordingly. This is V
 
 Open Notebook is essentially a bridge between symbolic and subsymbolic representations at every layer:
 
-| Stage | Subsymbolic | → Bridge → | Symbolic |
-|-------|-------------|------------|----------|
+| Stage | Subsymbolic | Bridge | Symbolic |
+|-------|-------------|--------|----------|
 | **Ingestion** | Raw document bytes | Parsing & extraction | Structured source objects |
 | **Embedding** | Text content | Vector encoding | Semantic embeddings |
 | **Search** | Query embedding | Cosine similarity | Retrieved documents |
