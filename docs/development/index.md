@@ -6,6 +6,7 @@ Welcome to the Open Notebook development documentation! This section provides co
 
 ### Getting Started
 - **[Architecture Overview](architecture.md)** - Understanding the system design and components
+- **[Emergence in AI Systems](emergence-in-ai.md)** - How emergent behavior shapes Open Notebook's algorithms
 - **[API Reference](api-reference.md)** - Complete REST API documentation
 - **[Contributing Guide](contributing.md)** - Development workflow and standards
 
@@ -34,7 +35,9 @@ Open Notebook is built with a modern Python stack using:
 - **Database**: SurrealDB for flexible document storage
 - **Frontend**: Next.js for rapid UI development
 - **AI Integration**: Multi-provider support via Esperanto library
-- **Processing**: LangChain for AI workflows and content processing
+- **Processing**: LangGraph and LangChain for AI workflows with emergent behavior
+
+> **New to AI system design?** Check out our [Emergence in AI Systems](emergence-in-ai.md) guide to understand how Open Notebook's algorithms leverage emergent behavior for sophisticated results from simple rules.
 
 ### Key Components
 

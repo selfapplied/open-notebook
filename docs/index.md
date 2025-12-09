@@ -69,6 +69,7 @@ Technical documentation for developers and contributors.
 ### 👩‍💻 **[Development](development/index.md)**
 Resources for extending and contributing to Open Notebook.
 - **[Architecture](development/architecture.md)** - System design overview
+- **[Emergence in AI](development/emergence-in-ai.md)** - How emergent principles shape algorithms
 - **[API Reference](development/api-reference.md)** - REST API documentation
 - **[Contributing](development/contributing.md)** - How to contribute
 
